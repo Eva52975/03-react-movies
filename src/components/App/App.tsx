@@ -46,7 +46,7 @@ export default function App() {
   return (
     <div>
       <Toaster />
-      <SearchBar onSearch={handleSearch} />
+      <SearchBar onSubmit={handleSearch} />
 
       {isLoading && <Loader />}
 
